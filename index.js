@@ -62,7 +62,7 @@ function shareURL(){
 
 function shareMessage() {
     Kakao.Share.sendCustom({
-      templateId: 82775,
+      templateId: 94779,
       templateArgs: {
         title: '아기사자 MBTI TEST',
         description: '어흥',
