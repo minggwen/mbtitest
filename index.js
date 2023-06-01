@@ -61,11 +61,16 @@ function shareURL(){
 }
 
 function shareMessage() {
+    Kakao.Share.sendScrap({
+        requestUrl: "https://main--sunny-begonia-09a9d0.netlify.app"
+    });
     Kakao.Share.sendCustom({
-      templateId: 94779,
+      templateId: 914534,
       templateArgs: {
         title: '아기사자 MBTI TEST',
         description: '어흥',
       },
     });
 }
+
+Kakao.init('d4dbd6c34a182506495ddc20dba7561b'); // 사용하려는 앱의 JavaScript 키 입력
