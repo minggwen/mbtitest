@@ -65,7 +65,7 @@ function shareMessage() {
         requestUrl: "https://main--sunny-begonia-09a9d0.netlify.app"
     });
     Kakao.Share.sendCustom({
-      templateId: 914534,
+      templateId: 94479,
       templateArgs: {
         title: '아기사자 MBTI TEST',
         description: '어흥',
